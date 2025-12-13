@@ -1,7 +1,7 @@
 const services = [
   {
     icon: '⏰',
-    title: 'You're Busy, We Get It',
+    title: "You're Busy, We Get It",
     description: 'Work, family, life — it all adds up. We take your pup on the adventures they deserve while you handle everything else.',
   },
   {
