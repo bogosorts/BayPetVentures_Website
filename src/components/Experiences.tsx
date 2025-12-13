@@ -10,8 +10,8 @@ export default function Experiences() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block text-ocean-600 font-semibold text-sm uppercase tracking-wider mb-4">Weekend Adventures</span>
-          <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-sand-900 mb-6">Our Weekly <span className="text-transparent bg-clip-text bg-gradient-to-r from-ocean-500 to-forest-500">Adventure Schedule</span></h2>
-          <p className="text-lg text-sand-600 leading-relaxed">We offer set adventures every weekend with limited spots. Book early to secure your pup's spot!</p>
+          <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-sand-900 mb-6">Adventures That Make <span className="text-transparent bg-clip-text bg-gradient-to-r from-ocean-500 to-forest-500">Tails Wag</span></h2>
+          <p className="text-lg text-sand-600 leading-relaxed">Every weekend, your pup can explore the Bay Area's best outdoor spots. Limited spots keep groups small and fun personal.</p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
@@ -71,18 +71,18 @@ export default function Experiences() {
         </div>
         <div className="bg-forest-50 rounded-2xl p-8">
           <h3 className="font-heading text-xl font-bold text-sand-900 mb-6 text-center">Every Adventure Includes</h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-            {[{ icon: '🚗', text: 'Door-to-door pickup' }, { icon: '📍', text: 'GPS tracking' }, { icon: '📸', text: 'Photo updates' }, { icon: '🧼', text: 'Post-trip cleanup' }, { icon: '🦴', text: 'Treats & water' }, { icon: '✨', text: 'Car stays clean!' }].map((item, index) => (
-              <div key={index} className={`flex flex-col items-center text-center p-4 bg-white rounded-xl ${index === 5 ? 'ring-2 ring-sunset-400 bg-sunset-50' : ''}`}>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            {[{ icon: '🚗', text: 'Door-to-door pickup' }, { icon: '📍', text: 'GPS tracking' }, { icon: '📸', text: 'Photo updates' }, { icon: '🧼', text: 'Post-trip cleanup' }, { icon: '🦴', text: 'Treats & water' }].map((item, index) => (
+              <div key={index} className="flex flex-col items-center text-center p-4 bg-white rounded-xl">
                 <span className="text-2xl mb-2">{item.icon}</span>
-                <span className={`text-sm font-medium ${index === 5 ? 'text-sunset-700' : 'text-sand-700'}`}>{item.text}</span>
+                <span className="text-sm font-medium text-sand-700">{item.text}</span>
               </div>
             ))}
           </div>
         </div>
         <div className="text-center mt-12">
           <a href="#book" className="inline-flex items-center gap-2 bg-gradient-to-r from-sunset-500 to-sunset-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-xl shadow-sunset-500/30 hover:shadow-sunset-500/50 hover:scale-105 transition-all">
-            Book Your Spot
+            Book Your Pup's Adventure
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </a>
         </div>

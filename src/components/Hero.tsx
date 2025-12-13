@@ -15,21 +15,24 @@ export default function Hero() {
             <span className="text-white/90 text-sm font-medium">Bay Area's #1 Pet Adventure Service</span>
           </div>
           <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-            Give Your Pup the <span className="text-transparent bg-clip-text bg-gradient-to-r from-sunset-300 to-sunset-400">Adventure</span> They Deserve
+            Your Pup Deserves{' '}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sunset-300 to-sunset-400">
+              Amazing Adventures
+            </span>
           </h1>
           <p className="text-lg sm:text-xl text-white/80 mb-8 leading-relaxed">
-            Every weekend, we take your pup on amazing Bay Area adventures — from Pacific beaches to mountain trails. We handle pickup, playtime, and cleanup. You just enjoy the happy, tired pup!
+            Life gets busy, but your dog's happiness shouldn't wait. We give your pup the beach days, mountain hikes, and outdoor fun they crave — while you focus on everything else.
           </p>
           
-          {/* Car Clean Highlight */}
-          <div className="bg-gradient-to-r from-ocean-500/20 to-forest-500/20 backdrop-blur-sm border border-white/20 rounded-2xl p-4 mb-8">
-            <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
-                <span className="text-2xl">🚗✨</span>
+          {/* Value Proposition Highlight */}
+          <div className="bg-gradient-to-r from-forest-500/20 to-ocean-500/20 backdrop-blur-sm border border-white/20 rounded-2xl p-4 mb-8">
+            <div className="flex items-center gap-4">
+              <div className="w-14 h-14 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0 p-2">
+                <span className="text-3xl">💛</span>
               </div>
               <div>
-                <p className="text-white font-semibold">Your Car Stays Spotless</p>
-                <p className="text-white/70 text-sm">No sandy seats, no muddy paws, no wet dog smell. We transport & clean — your car never knows they went on an adventure!</p>
+                <p className="text-white font-semibold">Because They Deserve It</p>
+                <p className="text-white/70 text-sm">You want the best for your dog. We make it happen — epic adventures, new friends, and a tired, happy pup at the end of every trip.</p>
               </div>
             </div>
           </div>
