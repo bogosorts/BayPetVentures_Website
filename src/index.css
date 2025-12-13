@@ -1,0 +1,103 @@
+/* Custom fonts - Poppins for headings, DM Sans for body */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  /* Color palette - warm, earthy, inviting tones */
+  --color-sand-50: #faf8f5;
+  --color-sand-100: #f3efe8;
+  --color-sand-200: #e5dfd3;
+  --color-sand-300: #d4c9b5;
+  --color-sand-400: #bfad8f;
+  --color-sand-500: #a99474;
+  --color-sand-600: #9a8264;
+  --color-sand-700: #806a53;
+  --color-sand-800: #695748;
+  --color-sand-900: #574a3e;
+
+  --color-forest-50: #f0f7f4;
+  --color-forest-100: #dbeee4;
+  --color-forest-200: #b9ddcc;
+  --color-forest-300: #8ac5ad;
+  --color-forest-400: #58a788;
+  --color-forest-500: #3a8c6e;
+  --color-forest-600: #2a7058;
+  --color-forest-700: #245a49;
+  --color-forest-800: #20483b;
+  --color-forest-900: #1c3c32;
+
+  --color-ocean-50: #f0f9fb;
+  --color-ocean-100: #d9f0f5;
+  --color-ocean-200: #b8e3ec;
+  --color-ocean-300: #87cfde;
+  --color-ocean-400: #4fb3c9;
+  --color-ocean-500: #3597ae;
+  --color-ocean-600: #2f7a92;
+  --color-ocean-700: #2c6477;
+  --color-ocean-800: #2b5363;
+  --color-ocean-900: #274654;
+
+  --color-sunset-50: #fef6f0;
+  --color-sunset-100: #fce9dd;
+  --color-sunset-200: #f8d0ba;
+  --color-sunset-300: #f3af8c;
+  --color-sunset-400: #ec855c;
+  --color-sunset-500: #e76339;
+  --color-sunset-600: #d84a2e;
+  --color-sunset-700: #b33928;
+  --color-sunset-800: #8f3026;
+  --color-sunset-900: #752b24;
+
+  /* Font families */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* Smooth animations */
+.fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-sand-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-sand-400);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-sand-500);
+}
