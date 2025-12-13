@@ -20,6 +20,20 @@ export default function Hero() {
           <p className="text-lg sm:text-xl text-white/80 mb-8 leading-relaxed">
             Every weekend, we take your pup on amazing Bay Area adventures — from Pacific beaches to mountain trails. We handle pickup, playtime, and cleanup. You just enjoy the happy, tired pup!
           </p>
+          
+          {/* Car Clean Highlight */}
+          <div className="bg-gradient-to-r from-ocean-500/20 to-forest-500/20 backdrop-blur-sm border border-white/20 rounded-2xl p-4 mb-8">
+            <div className="flex items-center gap-3">
+              <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                <span className="text-2xl">🚗✨</span>
+              </div>
+              <div>
+                <p className="text-white font-semibold">Your Car Stays Spotless</p>
+                <p className="text-white/70 text-sm">No sandy seats, no muddy paws, no wet dog smell. We transport & clean — your car never knows they went on an adventure!</p>
+              </div>
+            </div>
+          </div>
+
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <a href="#book" className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-sunset-500 to-sunset-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-xl shadow-sunset-500/30 hover:shadow-sunset-500/50 hover:scale-105 transition-all">
               Book an Adventure

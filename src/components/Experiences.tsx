@@ -71,9 +71,12 @@ export default function Experiences() {
         </div>
         <div className="bg-forest-50 rounded-2xl p-8">
           <h3 className="font-heading text-xl font-bold text-sand-900 mb-6 text-center">Every Adventure Includes</h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-            {[{ icon: '🚗', text: 'Door-to-door pickup' }, { icon: '📍', text: 'GPS tracking' }, { icon: '📸', text: 'Photo updates' }, { icon: '🧼', text: 'Post-trip cleanup' }, { icon: '🦴', text: 'Treats & water' }].map((item, index) => (
-              <div key={index} className="flex flex-col items-center text-center p-4 bg-white rounded-xl"><span className="text-2xl mb-2">{item.icon}</span><span className="text-sm font-medium text-sand-700">{item.text}</span></div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+            {[{ icon: '🚗', text: 'Door-to-door pickup' }, { icon: '📍', text: 'GPS tracking' }, { icon: '📸', text: 'Photo updates' }, { icon: '🧼', text: 'Post-trip cleanup' }, { icon: '🦴', text: 'Treats & water' }, { icon: '✨', text: 'Car stays clean!' }].map((item, index) => (
+              <div key={index} className={`flex flex-col items-center text-center p-4 bg-white rounded-xl ${index === 5 ? 'ring-2 ring-sunset-400 bg-sunset-50' : ''}`}>
+                <span className="text-2xl mb-2">{item.icon}</span>
+                <span className={`text-sm font-medium ${index === 5 ? 'text-sunset-700' : 'text-sand-700'}`}>{item.text}</span>
+              </div>
             ))}
           </div>
         </div>
