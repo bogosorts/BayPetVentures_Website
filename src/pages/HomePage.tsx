@@ -4,6 +4,16 @@ export default function HomePage() {
       {/* Hero */}
       <section className="bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16">
+          <div className="mb-8 overflow-hidden rounded-2xl border border-sand-200 bg-sand-50">
+            <img
+              src="https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt="Happy dog outdoors"
+              className="h-56 w-full object-cover sm:h-72"
+              loading="eager"
+              decoding="async"
+            />
+          </div>
+
           <h1 className="font-heading text-4xl sm:text-5xl font-bold text-sand-900 leading-tight">
             Simple Dog Adventures in{' '}
             <span className="text-forest-600">San Jose</span>
