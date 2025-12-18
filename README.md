@@ -88,7 +88,3 @@ npm run build
 ## 📄 License
 
 MIT License - feel free to use for your own projects!
-
----
-
-Made with 🐾 in San Francisco
