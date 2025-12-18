@@ -5,7 +5,7 @@ export default function Footer() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div>
-            <p className="font-semibold text-sand-900">PetVenture</p>
+            <p className="font-semibold text-sand-900">Pet Outings</p>
             <p className="mt-1 text-sm text-sand-600">Dog adventures in San Jose.</p>
           </div>
 
@@ -20,7 +20,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <p className="mt-6 text-xs text-sand-500">© {currentYear} PetVenture</p>
+        <p className="mt-6 text-xs text-sand-500">© {currentYear} Pet Outings</p>
       </div>
     </footer>
   )

@@ -5,7 +5,7 @@ export default function Header() {
         <div className="flex items-center justify-center h-16">
           <a href="#top" className="flex items-center gap-2">
             <span className="font-heading text-lg font-bold text-sand-900">
-              Pet<span className="text-forest-600">Venture</span>
+              Pet <span className="text-forest-600">Outings</span>
             </span>
           </a>
         </div>
