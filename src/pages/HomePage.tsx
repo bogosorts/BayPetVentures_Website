@@ -37,7 +37,7 @@ export default function HomePage() {
               className="rounded-2xl border border-sand-200 p-5 hover:bg-sand-50 transition-colors"
             >
               <p className="text-sm text-sand-500">Phone</p>
-              <p className="mt-1 font-semibold text-sand-900">(408) 555-0199</p>
+              <p className="mt-1 font-semibold text-sand-900">(919) 809-3632</p>
             </a>
             <a
               href="charles@petoutings.com"

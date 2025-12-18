@@ -1,8 +1,8 @@
-# PetVenture 🐾
+# PetOutings🐾
 
 > Bay Area's premier pet vacation and adventure service
 
-A modern, responsive website for PetVenture - a pet vacation service offering curated dog experiences including national park treks, beach days, mountain adventures, and more.
+A modern, responsive website for Pet Outings - a pet vacation service offering curated dog experiences including national park treks, beach days, mountain adventures, and more.
 
 ## 🌟 Features
 
