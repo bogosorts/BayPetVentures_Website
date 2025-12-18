@@ -18,10 +18,10 @@ export default function HomePage() {
             Dog Adventures in <span className="text-forest-600">San Jose</span>
           </h1>
           <p className="mt-5 text-lg text-sand-700">
-            Pickup → a fun outdoor adventure → drop-off. That’s it.
+            Door-to-door pickup → outdoor adventure → drop-off.
           </p>
           <p className="mt-3 text-sand-600">
-            Starting small: usually <strong className="text-sand-800">1 dog per trip</strong> (sometimes 2 if they’re a good match). Transport is in my personal sedan.
+            We intentionally keep outings small for individualized attention — typically <strong className="text-sand-800">1–2 dogs per trip</strong>.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-3">
@@ -40,11 +40,11 @@ export default function HomePage() {
           </div>
 
           <div className="mt-8 rounded-2xl border border-sand-200 bg-sand-50 p-5">
-            <p className="font-semibold text-sand-900">Good fit if your dog is:</p>
+            <p className="font-semibold text-sand-900">A good fit if your dog is:</p>
             <ul className="mt-3 space-y-2 text-sand-700">
               <li>• Friendly with people</li>
               <li>• Comfortable riding in a car</li>
-              <li>• Up to date on core vaccines (tell me what you have)</li>
+              <li>• Up to date on core vaccines (share vaccination status)</li>
             </ul>
           </div>
         </div>
@@ -69,7 +69,7 @@ export default function HomePage() {
             </div>
           </div>
           <p className="mt-6 text-sand-600">
-            No add-ons, no cameras, no grooming/cleaning packages. Just a safe outing and a happy dog.
+            Focused on the essentials: safe transport, a great outing, and a happy dog.
           </p>
         </div>
       </section>
@@ -79,7 +79,7 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <h2 className="font-heading text-2xl font-bold text-sand-900">Contact</h2>
           <p className="mt-3 text-sand-600">
-            Text or call and tell me: your neighborhood, your dog’s name/breed, and what days/times you want.
+            Text or call with your neighborhood, your dog’s name/breed, and preferred days/times.
           </p>
 
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -100,7 +100,7 @@ export default function HomePage() {
           </div>
 
           <p className="mt-8 text-xs text-sand-500">
-            Service is provided by an independent operator. Availability is limited while we’re starting out.
+            Limited openings to maintain individualized attention and consistent scheduling.
           </p>
         </div>
       </section>
