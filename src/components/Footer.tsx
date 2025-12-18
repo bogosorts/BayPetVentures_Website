@@ -10,12 +10,12 @@ export default function Footer() {
           </div>
 
           <div className="text-sm text-sand-600">
-            <a className="hover:text-sand-900 transition-colors" href="tel:+14085550199">
-              (408) 555-0199
+            <a className="hover:text-sand-900 transition-colors" href="tel:+19198093632">
+              (919) 809-3632
             </a>
             <span className="mx-2 text-sand-300">|</span>
-            <a className="hover:text-sand-900 transition-colors" href="mailto:hello@petventure.com">
-              hello@petventure.com
+            <a className="hover:text-sand-900 transition-colors" href="mailto:charles@petoutings.com">
+              charles@petoutings.com
             </a>
           </div>
         </div>
