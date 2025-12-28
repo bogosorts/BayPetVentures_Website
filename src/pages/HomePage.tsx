@@ -28,7 +28,7 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <h2 className="font-heading text-2xl font-bold text-sand-900">Contact</h2>
           <p className="mt-3 text-sand-600">
-            Text or call with your neighborhood, your dog’s name/breed, and preferred days/times.
+            Text or call with your neighborhood, your dog's name/breed, and preferred days/times.
           </p>
 
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">

@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import HomePage from './pages/HomePage'
+import HomePageV2 from './pages/HomePageV2'
 import FlyerPage from './pages/FlyerPage'
 
 function App() {
@@ -13,6 +14,15 @@ function App() {
             <Header />
             <main className="flex-grow">
               <HomePage />
+            </main>
+            <Footer />
+          </>
+        } />
+        <Route path="/v2" element={
+          <>
+            <Header />
+            <main className="flex-grow">
+              <HomePageV2 />
             </main>
             <Footer />
           </>
