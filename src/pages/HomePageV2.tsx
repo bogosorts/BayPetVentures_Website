@@ -1,3 +1,7 @@
+import harborImage from '../assets/Harbor-Twin-Lakes-Sunset_by-Ben-Ingram_2022.7.jpg'
+import lighthouseImage from '../assets/Its-Beach_Lighthouse-Field_Sunset_Dogs_Film_by-Ben-Ingram_2022.jpg'
+import seabrightImage from '../assets/Seabright-_10-8-24_ClearStoryVisuals-2-768x512.jpg'
+
 export default function HomePageV2() {
   return (
     <div id="top" className="pt-20 bg-sand-50">
@@ -211,6 +215,35 @@ export default function HomePageV2() {
                   <p className="text-sm text-sand-600">Saratoga</p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Photo Gallery */}
+      <section className="bg-white py-12">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="overflow-hidden rounded-2xl">
+              <img 
+                src={harborImage}
+                alt="Sunset walk with dog at Harbor Twin Lakes"
+                className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl">
+              <img 
+                src={lighthouseImage}
+                alt="Dogs playing at sunset near lighthouse"
+                className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl">
+              <img 
+                src={seabrightImage}
+                alt="Dogs playing at Seabright Beach"
+                className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+              />
             </div>
           </div>
         </div>

@@ -13,10 +13,10 @@ const FlyerPage = () => {
               {/* Logo Image */}
               <img 
                 src="/petLogo.svg" 
-                alt="Pet Outings Logo" 
+                alt="Bay Pet Ventures Logo" 
                 className="w-12 h-12 object-contain mb-1"
               />
-              <span className="text-forest-900 font-heading font-bold text-lg tracking-tight ml-2">Pet Outings</span>
+              <span className="text-forest-900 font-heading font-bold text-lg tracking-tight ml-2">Bay Pet Ventures</span>
           </div>
         </div>
 
