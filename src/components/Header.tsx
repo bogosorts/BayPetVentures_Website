@@ -4,6 +4,11 @@ export default function Header() {
       <nav className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <a href="#top" className="flex items-center gap-2">
+            <img 
+              src="/petLogo.svg" 
+              alt="Bay Pet Ventures Logo" 
+              className="w-8 h-8 object-contain"
+            />
             <span className="font-heading text-lg font-bold text-sand-900">
               Bay <span className="text-forest-600">Pet Ventures</span>
             </span>

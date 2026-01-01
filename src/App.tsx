@@ -13,16 +13,16 @@ function App() {
           <>
             <Header />
             <main className="flex-grow">
-              <HomePage />
+              <HomePageV2 />
             </main>
             <Footer />
           </>
         } />
-        <Route path="/v2" element={
+        <Route path="/old" element={
           <>
             <Header />
             <main className="flex-grow">
-              <HomePageV2 />
+              <HomePage />
             </main>
             <Footer />
           </>

@@ -38,7 +38,7 @@ const FlyerPage = () => {
               Beach Camp for Your Dog
             </h1>
             <p className="mt-3 text-sm font-medium text-sand-800 uppercase tracking-wide">
-              Serving the South Bay Area Only <span className="mx-2">|</span> Adventures led by a CCPDT-Certified Trainer.
+              Serving the South Bay Area Only <span className="mx-2">|</span> Adventures led by a CCPDT-Certified Trainer
             </p>
           </div>
 

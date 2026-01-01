@@ -24,7 +24,7 @@ export default function HomePageV2() {
             Santa Cruz Beach Camp
           </h1>
           <p className="mt-4 text-sm sm:text-base font-medium text-sand-800 uppercase tracking-wide">
-            Only serving South Bay Dog Parents <span className="mx-2">|</span> Adventures led by a CCPDT-Certified Trainer.
+            Only serving South Bay Dog Parents <span className="mx-2">|</span> Adventures led by a CCPDT-Certified Trainer
           </p>
         </div>
       </section>

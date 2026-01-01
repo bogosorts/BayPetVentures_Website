@@ -4,9 +4,16 @@ export default function Footer() {
     <footer className="border-t border-sand-200 bg-sand-50">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <div>
-            <p className="font-semibold text-sand-900">Bay Pet Ventures</p>
-            <p className="mt-1 text-sm text-sand-600">Dog adventures in San Jose.</p>
+          <div className="flex items-center gap-2">
+            <img 
+              src="/petLogo.svg" 
+              alt="Bay Pet Ventures Logo" 
+              className="w-6 h-6 object-contain"
+            />
+            <div>
+              <p className="font-semibold text-sand-900">Bay Pet Ventures</p>
+              <p className="mt-1 text-sm text-sand-600">Dog adventures in San Jose.</p>
+            </div>
           </div>
 
           <div className="text-sm text-sand-600">
