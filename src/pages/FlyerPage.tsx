@@ -141,7 +141,7 @@ const FlyerPage = () => {
                 <div className="flex flex-col items-center text-center space-y-2 flex-1">
                     {/* Text Button */}
                     <a
-                      href="sms:+16504190278?body=Hi%2C%20do%20you%20have%20availability%20for%20a%20dog%20trip"
+                      href="sms:+16504190278?body=Hi%2C%20do%20you%20have%20availability%20for%20a%20trip%20for%20our%20dog%3F"
                       className="bg-yellow-400 hover:bg-yellow-300 transition-colors text-forest-900 font-heading font-bold text-lg sm:text-xl py-3 px-6 rounded-full shadow-lg cursor-pointer transform hover:scale-105 duration-200 whitespace-nowrap"
                     >
                        Text Us! (650) 419-0278

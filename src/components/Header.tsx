@@ -41,7 +41,7 @@ export default function Header() {
           <div className="flex items-center gap-2 sm:gap-3">
             {/* Text Button - Always visible, smaller on mobile */}
             <a
-              href="sms:+16504190278?body=Hi%2C%20do%20you%20have%20availability%20for%20a%20dog%20trip"
+              href="sms:+16504190278?body=Hi%2C%20do%20you%20have%20availability%20for%20a%20trip%20for%20our%20dog%3F"
               className="bg-yellow-400 hover:bg-yellow-300 transition-colors text-forest-900 font-heading font-bold text-[10px] sm:text-sm md:text-base py-1.5 px-2 sm:py-2 sm:px-4 md:px-6 rounded-full shadow-lg transform hover:scale-105 duration-200 whitespace-nowrap"
             >
               Text Us!
