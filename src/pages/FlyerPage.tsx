@@ -140,9 +140,12 @@ const FlyerPage = () => {
                 {/* Center: Button & Email */}
                 <div className="flex flex-col items-center text-center space-y-2 flex-1">
                     {/* Text Button */}
-                    <div className="bg-yellow-400 hover:bg-yellow-300 transition-colors text-forest-900 font-heading font-bold text-lg sm:text-xl py-3 px-6 rounded-full shadow-lg cursor-pointer transform hover:scale-105 duration-200 whitespace-nowrap">
-                       Text "BEACH" to (650) 419-0278
-                    </div>
+                    <a
+                      href="sms:+16504190278?body=Hi%2C%20do%20you%20have%20availability%20for%20a%20dog%20trip"
+                      className="bg-yellow-400 hover:bg-yellow-300 transition-colors text-forest-900 font-heading font-bold text-lg sm:text-xl py-3 px-6 rounded-full shadow-lg cursor-pointer transform hover:scale-105 duration-200 whitespace-nowrap"
+                    >
+                       Text Us! (650) 419-0278
+                    </a>
 
                 </div>
 

@@ -234,10 +234,10 @@ export default function ServicesPage() {
             Most outings run on weekends (with occasional weekday availability). You can book same-day if you contact us before noon (subject to availability).
           </p>
           <a
-            href="sms:+16504190278?body=BEACH"
+            href="sms:+16504190278?body=Hi%2C%20do%20you%20have%20availability%20for%20a%20dog%20trip"
             className="inline-block bg-yellow-400 hover:bg-yellow-300 transition-colors text-forest-900 font-heading font-bold text-base sm:text-lg py-3 px-6 rounded-full shadow-lg transform hover:scale-105 duration-200"
           >
-            Text "BEACH" to (650) 419-0278
+            Text Us! (650) 419-0278
           </a>
         </div>
       </section>
