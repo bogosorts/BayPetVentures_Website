@@ -39,6 +39,17 @@ export default function Header() {
           </div>
           
           <div className="flex items-center gap-2 sm:gap-3">
+            {/* Text Button - Always visible, smaller on mobile */}
+            <a
+              href="sms:+16504190278?body=BEACH"
+              className="bg-yellow-400 hover:bg-yellow-300 transition-colors text-forest-900 font-heading font-bold text-[10px] sm:text-sm md:text-base py-1.5 px-2 sm:py-2 sm:px-4 md:px-6 rounded-full shadow-lg transform hover:scale-105 duration-200 whitespace-nowrap"
+            >
+              <span className="hidden sm:inline">Text "BEACH" to </span>
+              <span className="sm:hidden">Text "BEACH"</span>
+              <span className="hidden sm:inline md:hidden">(650) 419-0278</span>
+              <span className="hidden md:inline">(650) 419-0278</span>
+            </a>
+            
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -55,17 +66,6 @@ export default function Header() {
                 </svg>
               )}
             </button>
-            
-            {/* Text Button - Always visible, shorter text on mobile */}
-            <a
-              href="sms:+16504190278?body=BEACH"
-              className="bg-yellow-400 hover:bg-yellow-300 transition-colors text-forest-900 font-heading font-bold text-xs sm:text-sm md:text-base py-2 px-3 sm:px-4 md:px-6 rounded-full shadow-lg transform hover:scale-105 duration-200 whitespace-nowrap"
-            >
-              <span className="hidden sm:inline">Text "BEACH" to </span>
-              <span className="sm:hidden">Text "BEACH"</span>
-              <span className="hidden sm:inline md:hidden">(650) 419-0278</span>
-              <span className="hidden md:inline">(650) 419-0278</span>
-            </a>
           </div>
         </div>
         
