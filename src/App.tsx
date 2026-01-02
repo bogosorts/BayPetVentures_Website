@@ -1,6 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
-import Header from './components/Header'
-import Footer from './components/Footer'
+import Layout from './components/Layout'
 import HomePage from './pages/HomePage'
 import HomePageV2 from './pages/HomePageV2'
 import FlyerPage from './pages/FlyerPage'
@@ -13,61 +12,13 @@ function App() {
   return (
     <div className="min-h-screen bg-sand-50 flex flex-col">
       <Routes>
-        <Route path="/" element={
-          <>
-            <Header />
-            <main className="flex-grow">
-              <HomePageV2 />
-            </main>
-            <Footer />
-          </>
-        } />
-        <Route path="/old" element={
-          <>
-            <Header />
-            <main className="flex-grow">
-              <HomePage />
-            </main>
-            <Footer />
-          </>
-        } />
+        <Route path="/" element={<Layout><HomePageV2 /></Layout>} />
+        <Route path="/old" element={<Layout><HomePage /></Layout>} />
         <Route path="/flyer" element={<FlyerPage />} />
-        <Route path="/about" element={
-          <>
-            <Header />
-            <main className="flex-grow">
-              <AboutPage />
-            </main>
-            <Footer />
-          </>
-        } />
-        <Route path="/faq" element={
-          <>
-            <Header />
-            <main className="flex-grow">
-              <FAQPage />
-            </main>
-            <Footer />
-          </>
-        } />
-        <Route path="/services" element={
-          <>
-            <Header />
-            <main className="flex-grow">
-              <ServicesPage />
-            </main>
-            <Footer />
-          </>
-        } />
-        <Route path="/contact" element={
-          <>
-            <Header />
-            <main className="flex-grow">
-              <ContactPage />
-            </main>
-            <Footer />
-          </>
-        } />
+        <Route path="/about" element={<Layout><AboutPage /></Layout>} />
+        <Route path="/faq" element={<Layout><FAQPage /></Layout>} />
+        <Route path="/services" element={<Layout><ServicesPage /></Layout>} />
+        <Route path="/contact" element={<Layout><ContactPage /></Layout>} />
       </Routes>
     </div>
   )
