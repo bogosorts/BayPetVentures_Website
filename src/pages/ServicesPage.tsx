@@ -116,7 +116,7 @@ export default function ServicesPage() {
                     Beach Adventure & Socialization
                   </h3>
                   <p className="text-sand-700 text-base sm:text-lg leading-relaxed mb-3">
-                    The 5-hour timer starts when we pick up your dog. We drive to Santa Cruz West Cliff dog beach (or Sunny Cove for private reservations when appropriate), where we spend about 4 hours engaging in walks, play, and structured calm time. This is structured socialization that builds confidence, not chaos.
+                    The 4-hour timer starts when we pick up your dog. We drive to Santa Cruz West Cliff dog beach (or Sunny Cove for private reservations when appropriate), where we spend about 4 hours engaging in walks, play, and structured calm time. This is structured socialization that builds confidence, not chaos.
                   </p>
                   <p className="text-sand-600 text-sm">
                     <strong>Private Outings:</strong> One dog per outing to ensure individualized attention and maximum safety.

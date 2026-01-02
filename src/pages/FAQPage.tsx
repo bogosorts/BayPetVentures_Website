@@ -5,7 +5,7 @@ export default function FAQPage() {
       faqs: [
         {
           question: "What exactly happens during an outing?",
-          answer: "The 5-hour timer starts at pickup. We drive from the South Bay to Santa Cruz (typically West Cliff Dog Beach). The trip includes about 4 hours of structured beach walks, supervised play (if appropriate), and calm decompression time to build confidence. We then drive your dog back home."
+          answer: "The 4-hour timer starts at pickup. We drive from the South Bay to Santa Cruz (typically West Cliff Dog Beach). The trip includes about 4 hours of structured beach walks, supervised play (if appropriate), and calm decompression time to build confidence. We then drive your dog back home."
         },
         {
           question: "Is this suitable for anxious or poorly socialized dogs?",
