@@ -40,11 +40,11 @@ export default function HomePage() {
               <p className="mt-1 font-semibold text-sand-900">(919) 809-3632</p>
             </a>
             <a
-              href="charles@petoutings.com"
+              href="mailto:charles@baypetventures.com"
               className="rounded-2xl border border-sand-200 p-5 hover:bg-sand-50 transition-colors"
             >
               <p className="text-sm text-sand-500">Email</p>
-              <p className="mt-1 font-semibold text-sand-900">charles@petoutings.com</p>
+              <p className="mt-1 font-semibold text-sand-900">charles@baypetventures.com</p>
             </a>
           </div>
 

@@ -21,8 +21,8 @@ export default function Footer() {
               (919) 809-3632
             </a>
             <span className="mx-2 text-sand-300">|</span>
-            <a className="hover:text-sand-900 transition-colors" href="mailto:charles@petoutings.com">
-              charles@petoutings.com
+            <a className="hover:text-sand-900 transition-colors" href="mailto:charles@baypetventures.com">
+              charles@baypetventures.com
             </a>
           </div>
         </div>

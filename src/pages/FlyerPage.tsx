@@ -148,7 +148,7 @@ const FlyerPage = () => {
 
                     {/* Email */}
                     <p className="text-sand-200 text-sm">
-                       questions to: <a href="mailto:charles@petoutings.com" className="text-white hover:underline font-semibold">charles@petoutings.com</a>
+                       questions to: <a href="mailto:charles@baypetventures.com" className="text-white hover:underline font-semibold">charles@baypetventures.com</a>
                     </p>
                 </div>
 
@@ -156,13 +156,13 @@ const FlyerPage = () => {
                 <div className="flex flex-col items-center flex-shrink-0">
                     <div className="mb-1">
                        <QRCode
-                         value="https://petoutings.com"
+                         value="https://baypetventures.com"
                          bgColor="transparent"
                          fgColor="#facc15"
                          size={64}
                        />
                     </div>
-                    <p className="text-sand-300 text-[10px] max-w-[100px] text-center leading-tight">Scan QR code to visit petoutings.com</p>
+                    <p className="text-sand-300 text-[10px] max-w-[100px] text-center leading-tight">Scan QR code to visit baypetventures.com</p>
                 </div>
 
              </div>
