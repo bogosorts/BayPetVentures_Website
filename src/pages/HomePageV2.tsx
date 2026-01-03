@@ -123,101 +123,96 @@ export default function HomePageV2() {
 
       {/* Reviews Section */}
       <section className="bg-sand-50 py-12">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-2xl sm:text-3xl font-bold text-center text-forest-900 mb-8">
             What Pet Parents Are Saying
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Review 1 - Maria L. */}
-            <div className="bg-white rounded-2xl p-6 shadow-md border border-sand-200">
-              <div className="flex items-center gap-1 mb-3">
-                {[...Array(5)].map((_, i) => (
-                  <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                  </svg>
-                ))}
-              </div>
-              <p className="text-sand-700 mb-4 leading-relaxed">
-                "The convenience of pickup and drop-off is a game-changer! The socialization has helped so much with her behavior. She STOPPED barking at other dogs in my apartment!!!"
-              </p>
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-forest-200 flex items-center justify-center text-forest-800 font-semibold">
-                  ML
+          <div className="overflow-x-auto pb-4 scrollbar-hide scroll-smooth snap-x snap-mandatory">
+            <div className="flex gap-6 min-w-max px-2">
+              {[
+                {
+                  name: "Maria L.",
+                  location: "Los Gatos",
+                  initials: "ML",
+                  text: "The convenience of pickup and drop-off is a game-changer! The socialization has helped so much with her behavior. She STOPPED barking at other dogs in my apartment!!!"
+                },
+                {
+                  name: "Sarah M.",
+                  location: "San Jose",
+                  initials: "SM",
+                  text: "My golden retriever Max came back exhausted and happy! The 1:1 attention really made a difference. He's been so much calmer at home since starting these beach camps."
+                },
+                {
+                  name: "James D.",
+                  location: "Campbell",
+                  initials: "JD",
+                  text: "Best investment for my anxious rescue dog! The certified trainer helped build her confidence, and the photos they send are absolutely adorable. Worth every penny!"
+                },
+                {
+                  name: "Robert T.",
+                  location: "Saratoga",
+                  initials: "RT",
+                  text: "As a busy professional, I love that they handle everything. My pup gets exercise, training, and comes home clean. The video updates throughout the day are such a nice touch!"
+                },
+                {
+                  name: "Emily K.",
+                  location: "Cupertino",
+                  initials: "EK",
+                  text: "My reactive dog has made incredible progress! After just 3 outings, he's so much more confident around other dogs. The structured approach really works."
+                },
+                {
+                  name: "Michael P.",
+                  location: "Sunnyvale",
+                  initials: "MP",
+                  text: "The training sessions are amazing. My dog's recall has improved dramatically, and I feel so much safer walking him now. Plus, he comes home clean and tired!"
+                },
+                {
+                  name: "Jennifer W.",
+                  location: "Mountain View",
+                  initials: "JW",
+                  text: "I was skeptical at first, but this service exceeded all expectations. The personalized attention and professional training make it worth every dollar. Highly recommend!"
+                },
+                {
+                  name: "David C.",
+                  location: "Los Altos",
+                  initials: "DC",
+                  text: "My senior dog loves these outings! They're gentle with him and adjust the activities to his pace. The photos they send make my day. Such a thoughtful service!"
+                },
+                {
+                  name: "Lisa H.",
+                  location: "Palo Alto",
+                  initials: "LH",
+                  text: "The beach time and socialization have transformed my anxious pup. She's so much more relaxed now, and the convenience of door-to-door service is unbeatable!"
+                },
+                {
+                  name: "Tom R.",
+                  location: "Santa Clara",
+                  initials: "TR",
+                  text: "Outstanding service! My dog gets the exercise and training he needs while I'm at work. The report cards with photos and videos are a wonderful bonus."
+                }
+              ].map((review, idx) => (
+                <div key={idx} className="bg-white rounded-2xl p-6 shadow-md border border-sand-200 min-w-[320px] max-w-[320px] flex-shrink-0 snap-start">
+                  <div className="flex items-center gap-1 mb-3">
+                    {[...Array(5)].map((_, i) => (
+                      <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-sand-700 mb-4 leading-relaxed">
+                    "{review.text}"
+                  </p>
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-forest-200 flex items-center justify-center text-forest-800 font-semibold">
+                      {review.initials}
+                    </div>
+                    <div>
+                      <p className="font-semibold text-forest-900">{review.name}</p>
+                      <p className="text-sm text-sand-600">{review.location}</p>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <p className="font-semibold text-forest-900">Maria L.</p>
-                  <p className="text-sm text-sand-600">Los Gatos</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Review 2 - Sarah M. */}
-            <div className="bg-white rounded-2xl p-6 shadow-md border border-sand-200">
-              <div className="flex items-center gap-1 mb-3">
-                {[...Array(5)].map((_, i) => (
-                  <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                  </svg>
-                ))}
-              </div>
-              <p className="text-sand-700 mb-4 leading-relaxed">
-                "My golden retriever Max came back exhausted and happy! The 1:1 attention really made a difference. He's been so much calmer at home since starting these beach camps."
-              </p>
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-forest-200 flex items-center justify-center text-forest-800 font-semibold">
-                  SM
-                </div>
-                <div>
-                  <p className="font-semibold text-forest-900">Sarah M.</p>
-                  <p className="text-sm text-sand-600">San Jose</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Review 3 - James D. */}
-            <div className="bg-white rounded-2xl p-6 shadow-md border border-sand-200">
-              <div className="flex items-center gap-1 mb-3">
-                {[...Array(5)].map((_, i) => (
-                  <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                  </svg>
-                ))}
-              </div>
-              <p className="text-sand-700 mb-4 leading-relaxed">
-                "Best investment for my anxious rescue dog! The certified trainer helped build her confidence, and the photos they send are absolutely adorable. Worth every penny!"
-              </p>
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-forest-200 flex items-center justify-center text-forest-800 font-semibold">
-                  JD
-                </div>
-                <div>
-                  <p className="font-semibold text-forest-900">James D.</p>
-                  <p className="text-sm text-sand-600">Campbell</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Review 4 */}
-            <div className="bg-white rounded-2xl p-6 shadow-md border border-sand-200">
-              <div className="flex items-center gap-1 mb-3">
-                {[...Array(5)].map((_, i) => (
-                  <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                  </svg>
-                ))}
-              </div>
-              <p className="text-sand-700 mb-4 leading-relaxed">
-                "As a busy professional, I love that they handle everything. My pup gets exercise, training, and comes home clean. The video updates throughout the day are such a nice touch!"
-              </p>
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-forest-200 flex items-center justify-center text-forest-800 font-semibold">
-                  RT
-                </div>
-                <div>
-                  <p className="font-semibold text-forest-900">Robert T.</p>
-                  <p className="text-sm text-sand-600">Saratoga</p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>
